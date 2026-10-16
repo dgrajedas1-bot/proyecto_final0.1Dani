@@ -42,6 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AsignacionTurnoG1.cs" />
+    <Compile Include="DepartamentoG1.cs" />
+    <Compile Include="ResultadoMarcajeG1.cs" />
+    <Compile Include="UsuarioG1.cs" />
     <Compile Include="EmpleadoG1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegistroAsistenciaG1.cs" />
