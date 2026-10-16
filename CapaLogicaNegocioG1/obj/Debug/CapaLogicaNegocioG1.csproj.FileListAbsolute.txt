@@ -1,0 +1,11 @@
+E:\TRABAJO_FI_PROGRA\CapaLogicaNegocioG1\bin\Debug\CapaLogicaNegocioG1.dll
+E:\TRABAJO_FI_PROGRA\CapaLogicaNegocioG1\bin\Debug\CapaLogicaNegocioG1.pdb
+E:\TRABAJO_FI_PROGRA\CapaLogicaNegocioG1\bin\Debug\CapaAccesoDatosG1.dll
+E:\TRABAJO_FI_PROGRA\CapaLogicaNegocioG1\bin\Debug\CapaEntidadesG1.dll
+E:\TRABAJO_FI_PROGRA\CapaLogicaNegocioG1\bin\Debug\CapaAccesoDatosG1.pdb
+E:\TRABAJO_FI_PROGRA\CapaLogicaNegocioG1\bin\Debug\CapaEntidadesG1.pdb
+E:\TRABAJO_FI_PROGRA\CapaLogicaNegocioG1\obj\Debug\CapaLogicaNegocioG1.csproj.AssemblyReference.cache
+E:\TRABAJO_FI_PROGRA\CapaLogicaNegocioG1\obj\Debug\CapaLogicaNegocioG1.csproj.CoreCompileInputs.cache
+E:\TRABAJO_FI_PROGRA\CapaLogicaNegocioG1\obj\Debug\CapaLogi.A62CFED1.Up2Date
+E:\TRABAJO_FI_PROGRA\CapaLogicaNegocioG1\obj\Debug\CapaLogicaNegocioG1.dll
+E:\TRABAJO_FI_PROGRA\CapaLogicaNegocioG1\obj\Debug\CapaLogicaNegocioG1.pdb

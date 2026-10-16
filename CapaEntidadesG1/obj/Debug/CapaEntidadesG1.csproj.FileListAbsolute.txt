@@ -1,0 +1,6 @@
+E:\TRABAJO_FI_PROGRA\CapaEntidadesG1\bin\Debug\CapaEntidadesG1.dll
+E:\TRABAJO_FI_PROGRA\CapaEntidadesG1\bin\Debug\CapaEntidadesG1.pdb
+E:\TRABAJO_FI_PROGRA\CapaEntidadesG1\obj\Debug\CapaEntidadesG1.csproj.AssemblyReference.cache
+E:\TRABAJO_FI_PROGRA\CapaEntidadesG1\obj\Debug\CapaEntidadesG1.csproj.CoreCompileInputs.cache
+E:\TRABAJO_FI_PROGRA\CapaEntidadesG1\obj\Debug\CapaEntidadesG1.dll
+E:\TRABAJO_FI_PROGRA\CapaEntidadesG1\obj\Debug\CapaEntidadesG1.pdb

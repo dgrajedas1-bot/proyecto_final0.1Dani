@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{80D1E4F1-DEAC-44FD-AA80-25CA5DC3A121}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CapaPresentacionG1</RootNamespace>
+    <AssemblyName>CapaPresentacionG1</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>CapaPresentacionG1.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmDepartamentosG1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmpleadosG1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmpleadosG1.Designer.cs">
+      <DependentUpon>frmEmpleadosG1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInicioG1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInicioG1.Designer.cs">
+      <DependentUpon>frmInicioG1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoginG1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoginG1.Designer.cs">
+      <DependentUpon>frmLoginG1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipalG1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipalG1.Designer.cs">
+      <DependentUpon>frmPrincipalG1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReporteAsistenciaG1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReporteAsistenciaG1.Designer.cs">
+      <DependentUpon>frmReporteAsistenciaG1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTurnosG1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTurnosG1.Designer.cs">
+      <DependentUpon>frmTurnosG1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaAccesoDatosG1\CapaAccesoDatosG1.csproj">
+      <Project>{048479b2-8734-4287-822c-08973af87cf3}</Project>
+      <Name>CapaAccesoDatosG1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaEntidadesG1\CapaEntidadesG1.csproj">
+      <Project>{ee72eb92-3abb-4aab-9609-f9d6b92a82f0}</Project>
+      <Name>CapaEntidadesG1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaLogicaNegocioG1\CapaLogicaNegocioG1.csproj">
+      <Project>{b647d9e9-4d8a-43fa-b932-87dc2e742990}</Project>
+      <Name>CapaLogicaNegocioG1</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmDepartamentosG1.resx">
+      <DependentUpon>frmDepartamentosG1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmpleadosG1.resx">
+      <DependentUpon>frmEmpleadosG1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInicioG1.resx">
+      <DependentUpon>frmInicioG1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoginG1.resx">
+      <DependentUpon>frmLoginG1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTurnosG1.resx">
+      <DependentUpon>frmTurnosG1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon\icono_grupo.png" />
+    <Content Include="icon\icon_contraseña.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icon\icon_usuario.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
