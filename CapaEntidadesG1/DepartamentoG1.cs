@@ -1,4 +1,4 @@
-namespace CapaEntidadesG1
+﻿namespace CapaEntidadesG1
 {
     /// <summary>
     /// Representa un departamento de la empresa (tabla Departamentos).

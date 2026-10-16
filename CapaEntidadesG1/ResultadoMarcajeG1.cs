@@ -1,4 +1,4 @@
-namespace CapaEntidadesG1
+﻿namespace CapaEntidadesG1
 {
     /// <summary>
     /// Resultado que la capa lógica devuelve a la pantalla después de un marcaje.

@@ -1,4 +1,4 @@
-using System.Configuration;
+﻿using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -14,7 +14,7 @@ namespace CapaAccesoDatosG1
         /// Cadena por defecto si App.config no trae "ControlAsistenciaDBG1".
         /// </summary>
         private const string gStrCadenaPorDefectoG1 =
-            @"Data Source=.\SQLEXPRESS;Initial Catalog=ControlAsistenciaDB;Integrated Security=True;TrustServerCertificate=True";
+            @"Data Source=.\SQLEXPRESS;Initial Catalog=ControlAsistenciaDB;Integrated Security=True";
 
         /// <summary>
         /// Crea una conexión nueva (sin abrir) usando la cadena de App.config.

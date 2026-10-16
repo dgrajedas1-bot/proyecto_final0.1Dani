@@ -1,4 +1,4 @@
-namespace CapaEntidadesG1
+﻿namespace CapaEntidadesG1
 {
     /// <summary>
     /// Representa un usuario que puede iniciar sesión (tabla Usuarios).

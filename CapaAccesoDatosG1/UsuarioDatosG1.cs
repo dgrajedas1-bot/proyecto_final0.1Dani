@@ -1,4 +1,4 @@
-using System.Data;
+﻿using System.Data;
 using CapaEntidadesG1;
 
 namespace CapaAccesoDatosG1

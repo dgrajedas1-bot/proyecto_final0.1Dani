@@ -1,4 +1,4 @@
-namespace CapaEntidadesG1
+﻿namespace CapaEntidadesG1
 {
     /// <summary>
     /// Representa a un empleado de la empresa (tabla Empleados).

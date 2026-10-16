@@ -1,4 +1,4 @@
--- ====================================================================
+﻿-- ====================================================================
 -- SISTEMA DE CONTROL DE ASISTENCIA Y PLANIFICACIÓN DE HORARIOS - GRUPO 1
 -- Script de creación de la base de datos ControlAsistenciaDB (SQL Express)
 -- Basado en el script del enunciado (caso 6) con estos agregados:
