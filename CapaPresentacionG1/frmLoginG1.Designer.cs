@@ -21,6 +21,7 @@
         /// <summary>Inicializa los controles del formulario.</summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLoginG1));
             this.picLogoG1 = new System.Windows.Forms.PictureBox();
             this.lblTituloG1 = new System.Windows.Forms.Label();
             this.picUsuarioG1 = new System.Windows.Forms.PictureBox();
@@ -38,27 +39,27 @@
             // 
             // picLogoG1
             // 
-            this.picLogoG1.Location = new System.Drawing.Point(150, 20);
+            this.picLogoG1.Location = new System.Drawing.Point(129, 17);
             this.picLogoG1.Name = "picLogoG1";
-            this.picLogoG1.Size = new System.Drawing.Size(120, 85);
+            this.picLogoG1.Size = new System.Drawing.Size(103, 74);
             this.picLogoG1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picLogoG1.TabIndex = 0;
             this.picLogoG1.TabStop = false;
             // 
             // lblTituloG1
             // 
-            this.lblTituloG1.Location = new System.Drawing.Point(10, 115);
+            this.lblTituloG1.Location = new System.Drawing.Point(9, 100);
             this.lblTituloG1.Name = "lblTituloG1";
-            this.lblTituloG1.Size = new System.Drawing.Size(400, 45);
+            this.lblTituloG1.Size = new System.Drawing.Size(343, 39);
             this.lblTituloG1.TabIndex = 1;
             this.lblTituloG1.Text = "CONTROL DE ASISTENCIA";
             this.lblTituloG1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // picUsuarioG1
             // 
-            this.picUsuarioG1.Location = new System.Drawing.Point(50, 180);
+            this.picUsuarioG1.Location = new System.Drawing.Point(43, 156);
             this.picUsuarioG1.Name = "picUsuarioG1";
-            this.picUsuarioG1.Size = new System.Drawing.Size(24, 24);
+            this.picUsuarioG1.Size = new System.Drawing.Size(21, 21);
             this.picUsuarioG1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picUsuarioG1.TabIndex = 2;
             this.picUsuarioG1.TabStop = false;
@@ -66,25 +67,25 @@
             // lblUsuarioG1
             // 
             this.lblUsuarioG1.AutoSize = true;
-            this.lblUsuarioG1.Location = new System.Drawing.Point(80, 181);
+            this.lblUsuarioG1.Location = new System.Drawing.Point(69, 157);
             this.lblUsuarioG1.Name = "lblUsuarioG1";
-            this.lblUsuarioG1.Size = new System.Drawing.Size(70, 21);
+            this.lblUsuarioG1.Size = new System.Drawing.Size(46, 13);
             this.lblUsuarioG1.TabIndex = 3;
             this.lblUsuarioG1.Text = "Usuario:";
             // 
             // txtUsuarioG1
             // 
-            this.txtUsuarioG1.Location = new System.Drawing.Point(50, 210);
+            this.txtUsuarioG1.Location = new System.Drawing.Point(43, 182);
             this.txtUsuarioG1.MaxLength = 50;
             this.txtUsuarioG1.Name = "txtUsuarioG1";
-            this.txtUsuarioG1.Size = new System.Drawing.Size(320, 25);
+            this.txtUsuarioG1.Size = new System.Drawing.Size(275, 20);
             this.txtUsuarioG1.TabIndex = 4;
             // 
             // picContrasenaG1
             // 
-            this.picContrasenaG1.Location = new System.Drawing.Point(50, 250);
+            this.picContrasenaG1.Location = new System.Drawing.Point(43, 217);
             this.picContrasenaG1.Name = "picContrasenaG1";
-            this.picContrasenaG1.Size = new System.Drawing.Size(24, 24);
+            this.picContrasenaG1.Size = new System.Drawing.Size(21, 21);
             this.picContrasenaG1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picContrasenaG1.TabIndex = 5;
             this.picContrasenaG1.TabStop = false;
@@ -92,35 +93,35 @@
             // lblContrasenaG1
             // 
             this.lblContrasenaG1.AutoSize = true;
-            this.lblContrasenaG1.Location = new System.Drawing.Point(80, 251);
+            this.lblContrasenaG1.Location = new System.Drawing.Point(69, 218);
             this.lblContrasenaG1.Name = "lblContrasenaG1";
-            this.lblContrasenaG1.Size = new System.Drawing.Size(95, 21);
+            this.lblContrasenaG1.Size = new System.Drawing.Size(64, 13);
             this.lblContrasenaG1.TabIndex = 6;
             this.lblContrasenaG1.Text = "Contraseña:";
             // 
             // txtContrasenaG1
             // 
-            this.txtContrasenaG1.Location = new System.Drawing.Point(50, 280);
+            this.txtContrasenaG1.Location = new System.Drawing.Point(43, 243);
             this.txtContrasenaG1.MaxLength = 100;
             this.txtContrasenaG1.Name = "txtContrasenaG1";
             this.txtContrasenaG1.PasswordChar = '●';
-            this.txtContrasenaG1.Size = new System.Drawing.Size(320, 25);
+            this.txtContrasenaG1.Size = new System.Drawing.Size(275, 20);
             this.txtContrasenaG1.TabIndex = 7;
             // 
             // btnIniciarSesionG1
             // 
-            this.btnIniciarSesionG1.Location = new System.Drawing.Point(50, 330);
+            this.btnIniciarSesionG1.Location = new System.Drawing.Point(43, 286);
             this.btnIniciarSesionG1.Name = "btnIniciarSesionG1";
-            this.btnIniciarSesionG1.Size = new System.Drawing.Size(320, 45);
+            this.btnIniciarSesionG1.Size = new System.Drawing.Size(274, 39);
             this.btnIniciarSesionG1.TabIndex = 8;
             this.btnIniciarSesionG1.Text = "Iniciar Sesión";
             this.btnIniciarSesionG1.Click += new System.EventHandler(this.btnIniciarSesionG1_Click);
             // 
             // btnSalirG1
             // 
-            this.btnSalirG1.Location = new System.Drawing.Point(50, 385);
+            this.btnSalirG1.Location = new System.Drawing.Point(43, 334);
             this.btnSalirG1.Name = "btnSalirG1";
-            this.btnSalirG1.Size = new System.Drawing.Size(320, 35);
+            this.btnSalirG1.Size = new System.Drawing.Size(274, 30);
             this.btnSalirG1.TabIndex = 9;
             this.btnSalirG1.Tag = "secundario";
             this.btnSalirG1.Text = "Salir";
@@ -129,9 +130,9 @@
             // frmLoginG1
             // 
             this.AcceptButton = this.btnIniciarSesionG1;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(420, 445);
+            this.ClientSize = new System.Drawing.Size(360, 386);
             this.Controls.Add(this.picLogoG1);
             this.Controls.Add(this.lblTituloG1);
             this.Controls.Add(this.picUsuarioG1);
@@ -143,6 +144,7 @@
             this.Controls.Add(this.btnIniciarSesionG1);
             this.Controls.Add(this.btnSalirG1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "frmLoginG1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -153,6 +155,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picContrasenaG1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         #endregion

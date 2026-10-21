@@ -119,6 +119,18 @@
     <EmbeddedResource Include="frmDepartamentosG1.resx">
       <DependentUpon>frmDepartamentosG1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmInicioG1.resx">
+      <DependentUpon>frmInicioG1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoginG1.resx">
+      <DependentUpon>frmLoginG1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMarcajeG1.resx">
+      <DependentUpon>frmMarcajeG1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipalG1.resx">
+      <DependentUpon>frmPrincipalG1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
